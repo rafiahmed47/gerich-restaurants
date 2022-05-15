@@ -27,6 +27,9 @@ const Navbar = () => {
         <div />
         <a href="/" className='p__opensans'>Book a Table</a>
       </div>
+
+
+// small screen navigation bar
       <div className='app__navbar-smallscreen'>
         <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)} />
 
